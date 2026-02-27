@@ -1,0 +1,16 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# DEPENDENCIAS - ASTROLOGÍA ELECTIVA EMPRESARIAL v1.0
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Framework web
+fastapi==0.109.0
+uvicorn==0.27.0
+
+# Motor astronómico (Swiss Ephemeris)
+pyswisseph==2.10.3.2
+
+# Validación de datos
+pydantic==2.5.3
+
+# Servidor ASGI (para producción)
+gunicorn==21.2.0
